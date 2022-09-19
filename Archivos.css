@@ -1,0 +1,122 @@
+@importar  URL ( 'https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Poppins&display=swap' );
+	* {
+		margen :  0 ;
+		relleno :  0 ;
+		tamaño de caja : cuadro de borde;
+		familia de fuentes :  'Montserrat Alternates' , sans-serif;
+	}
+	cuerpo {
+		fondo :  url (https://www.xtrafondos.com/wallpapers/montanas-con-nieve-en-el-bosque-3934.jpg);
+		tamaño de fondo :  100 vw  100 vh ;
+		repetición de fondo : sin repetición;
+	}
+	. capa {
+		posición : fijo;
+		ancho :  100 % ;
+		altura :  100 vh ;
+		fondo :  rgba ( 0 , 0 , 0 , 0,6 );
+		índice z :  -1 ;
+		superior :  0 ; izquierda :  0 ;
+	}
+	/*Estilos para el encabezado*/
+	. encabezado {
+		ancho :  100 % ;
+		altura :  100 píxeles ;
+		posición : fijo;
+		superior :  0 ; izquierda :  0 ;
+	}
+	. contenedor {
+		ancho :  90 % ;
+		ancho máximo :  1200 px ;
+		margen : automático;
+	}
+	. contenedor _ btn-menú , . logotipo {
+		flotante : izquierda;
+		altura de línea : 100 px ;
+	}
+	. contenedor _ etiqueta de menú btn  {
+		color :  #fff ; _
+		tamaño de fuente :  25 px ;
+		cursor : puntero;
+	}
+	. logotipo  h1 {
+		color :  #fff ; _
+		peso de fuente :  400 ;
+		tamaño de fuente :  22 px ;
+		margen izquierdo :  10 px ;
+	}
+	. contenedor _ menú {
+		flotante : derecho;
+		altura de línea :  100 px ;
+	}
+	. contenedor _ menú  un {
+		pantalla : bloque en línea;
+		relleno :  15 px ;
+		altura de línea : normal;
+		decoración de texto : ninguno;
+		color :  #fff ; _
+		transición : todos 0,3 s de facilidad;
+		borde inferior :  2 px sólido transparente;
+		tamaño de fuente :  15 px ;
+		margen derecho :  5 px ;
+	}
+	. contenedor _ menú  a : flotar {
+		borde inferior :  2 px sólido # c7c7c7 ;
+		relleno inferior :  5 px ;
+	}
+	/*Fin de Estilos para el encabezado*/
+
+	/*Menú lateral*/
+	# btn-menú {
+		pantalla : ninguno;
+	}
+	. menú-contenedor {
+		posición : absoluta;
+		fondo :  rgba ( 0 , 0 , 0 , 0,5 );
+		ancho :  100 % ;
+		altura :  100 vh ;
+		superior :  0 ; izquierda :  0 ;
+		transición : todos los 500 ms de facilidad;
+		opacidad :  0 ;
+		visibilidad : oculta;
+	}
+	# btn-menu : marcado  ~ . menú-contenedor {
+		opacidad :  1 ;
+		visibilidad : visible;
+	}
+	. menú continuo {
+		ancho :  100 % ;
+		ancho máximo :  250 px ;
+		fondo :  # 1c1c1c ;
+		altura :  100 vh ;
+		posición : relativa;
+		transición : todos los 500 ms de facilidad;
+		transformar :  traducirX ( -100 % );
+	}
+	# btn-menu : marcado  ~ . menú contenedor . menú continuo {
+		transformar :  traducirX ( 0 % );
+	}
+	. cont-menu  nav {
+		transformar :  traducirY ( 15 % );
+	}
+	. cont-menu  nav  a {
+		pantalla : bloque;
+		decoración de texto : ninguno;
+		relleno :  20 px ;
+		color :  # c7c7c7 ;
+		borde izquierdo :  5 px sólido transparente;
+		transición : todos los 400 ms de facilidad;
+	}
+	. cont-menu  nav  a : hover {
+		borde izquierdo :  5 px sólido # c7c7c7 ;
+		fondo :  # 1f1f1f ;
+	}
+	. etiqueta del menú  continuo {
+		posición : absoluta;
+		derecha :  5 px ;
+		arriba :  10 px ;
+		color :  #fff ; _
+		cursor : puntero;
+		tamaño de fuente :  18 px ;
+	}
+	/*Fin de Menú lateral*/
